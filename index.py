@@ -76,4 +76,12 @@ df_ventes["Satisfaction_Client"] = (
     )
 )
 
+print(df_ventes.head())
+
+print("\nDimensions du DataFrame :")
+print(df_ventes.shape)
+
+print("\nValeurs manquantes :")
+print(df_ventes.isna().sum())
+
 
